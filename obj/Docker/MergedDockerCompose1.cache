@@ -1,0 +1,68 @@
+services:
+  herogi.leaderboard.api:
+    build:
+      context: /Users/wayni/Projects/Herogi.Leaderboard
+      dockerfile: Herogi.Leaderboard.Api/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Herogi.Leaderboard.Api
+      target: base
+    container_name: Herogi.Leaderboard.Api
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    hostname: leaderboardapi
+    image: herogileaderboard:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/netcoreapp3.1/Herogi.Leaderboard.Api.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    links:
+    - mongo
+    ports:
+    - 80/tcp
+    - 443/tcp
+    - 2121:2122/tcp
+    tty: true
+    volumes:
+    - /Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api:/app:rw
+    - /Users/wayni/vsdbg/vs2017u5:/remote_debugger:rw
+    - /Users/wayni/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/wayni/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+    - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - /Users/wayni/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/wayni/Projects/Herogi.Leaderboard:/src:rw
+  mongo:
+    command: mongod --smallfiles
+    environment:
+      MONGODB_PASS: password!
+      MONGODB_USER: user
+    hostname: mongo
+    image: mongo
+    ports:
+    - 27017:27017/tcp
+    volumes:
+    - mongodb_config:/data/configdb:rw
+    - mongodb:/data/db:rw
+  mongo-express:
+    environment:
+      ME_CONFIG_BASICAUTH_PASSWORD: password!
+      ME_CONFIG_BASICAUTH_USERNAME: user
+      ME_CONFIG_OPTIONS_EDITORTHEME: ambiance
+    hostname: mongo-express
+    image: mongo-express
+    links:
+    - mongo
+    ports:
+    - 8081:8081/tcp
+version: '3.4'
+volumes:
+  mongodb: {}
+  mongodb_config: {}

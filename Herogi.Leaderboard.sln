@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herogi.Leaderboard.Api", "Herogi.Leaderboard.Api\Herogi.Leaderboard.Api.csproj", "{A11D0921-5669-4CD0-9501-6C487BE3E9B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herogi.Leaderboard.Data", "Herogi.Leaderboard.Data\Herogi.Leaderboard.Data.csproj", "{A75915CD-F042-47C3-9017-C17CF1B124C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herogi.Leaderboard.Service", "Herogi.Leaderboard.Service\Herogi.Leaderboard.Service.csproj", "{06564A8C-AAC9-496B-896E-0E616CDB851E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{566B15D5-1380-4BA3-BD87-5EB9F4064EC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A11D0921-5669-4CD0-9501-6C487BE3E9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11D0921-5669-4CD0-9501-6C487BE3E9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11D0921-5669-4CD0-9501-6C487BE3E9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11D0921-5669-4CD0-9501-6C487BE3E9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75915CD-F042-47C3-9017-C17CF1B124C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75915CD-F042-47C3-9017-C17CF1B124C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75915CD-F042-47C3-9017-C17CF1B124C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75915CD-F042-47C3-9017-C17CF1B124C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06564A8C-AAC9-496B-896E-0E616CDB851E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06564A8C-AAC9-496B-896E-0E616CDB851E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06564A8C-AAC9-496B-896E-0E616CDB851E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06564A8C-AAC9-496B-896E-0E616CDB851E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566B15D5-1380-4BA3-BD87-5EB9F4064EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566B15D5-1380-4BA3-BD87-5EB9F4064EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566B15D5-1380-4BA3-BD87-5EB9F4064EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566B15D5-1380-4BA3-BD87-5EB9F4064EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Data/bin/Debug/netstandard2.0/Herogi.Leaderboard.Data.deps.json
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Data/bin/Debug/netstandard2.0/Herogi.Leaderboard.Data.dll
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Data/bin/Debug/netstandard2.0/Herogi.Leaderboard.Data.pdb
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Data/obj/Debug/netstandard2.0/Herogi.Leaderboard.Data.csproj.CoreCompileInputs.cache
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Data/obj/Debug/netstandard2.0/Herogi.Leaderboard.Data.AssemblyInfoInputs.cache
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Data/obj/Debug/netstandard2.0/Herogi.Leaderboard.Data.AssemblyInfo.cs
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Data/obj/Debug/netstandard2.0/Herogi.Leaderboard.Data.dll
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Data/obj/Debug/netstandard2.0/Herogi.Leaderboard.Data.pdb

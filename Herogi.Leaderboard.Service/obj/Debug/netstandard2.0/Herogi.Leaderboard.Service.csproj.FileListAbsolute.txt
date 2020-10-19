@@ -1,0 +1,12 @@
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/bin/Debug/netstandard2.0/Herogi.Leaderboard.Service.deps.json
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/bin/Debug/netstandard2.0/Herogi.Leaderboard.Service.dll
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/bin/Debug/netstandard2.0/Herogi.Leaderboard.Service.pdb
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/bin/Debug/netstandard2.0/Herogi.Leaderboard.Data.dll
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/bin/Debug/netstandard2.0/Herogi.Leaderboard.Data.pdb
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/obj/Debug/netstandard2.0/Herogi.Leaderboard.Service.csprojAssemblyReference.cache
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/obj/Debug/netstandard2.0/Herogi.Leaderboard.Service.csproj.CoreCompileInputs.cache
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/obj/Debug/netstandard2.0/Herogi.Leaderboard.Service.AssemblyInfoInputs.cache
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/obj/Debug/netstandard2.0/Herogi.Leaderboard.Service.AssemblyInfo.cs
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/obj/Debug/netstandard2.0/Herogi.Leaderboard.Service.csproj.CopyComplete
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/obj/Debug/netstandard2.0/Herogi.Leaderboard.Service.dll
+/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Service/obj/Debug/netstandard2.0/Herogi.Leaderboard.Service.pdb

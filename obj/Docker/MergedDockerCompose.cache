@@ -1,0 +1,46 @@
+services:
+  herogi.leaderboard.api:
+    build:
+      context: /Users/wayni/Projects/Herogi.Leaderboard
+      dockerfile: Herogi.Leaderboard.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    hostname: leaderboardapi
+    image: herogileaderboard
+    links:
+    - mongo
+    ports:
+    - 80/tcp
+    - 443/tcp
+    - 2121:2122/tcp
+    volumes:
+    - /Users/wayni/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/wayni/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+  mongo:
+    command: mongod --smallfiles
+    environment:
+      MONGODB_PASS: password!
+      MONGODB_USER: user
+    hostname: mongo
+    image: mongo
+    ports:
+    - 27017:27017/tcp
+    volumes:
+    - mongodb_config:/data/configdb:rw
+    - mongodb:/data/db:rw
+  mongo-express:
+    environment:
+      ME_CONFIG_BASICAUTH_PASSWORD: password!
+      ME_CONFIG_BASICAUTH_USERNAME: user
+      ME_CONFIG_OPTIONS_EDITORTHEME: ambiance
+    hostname: mongo-express
+    image: mongo-express
+    links:
+    - mongo
+    ports:
+    - 8081:8081/tcp
+version: '3.4'
+volumes:
+  mongodb: {}
+  mongodb_config: {}

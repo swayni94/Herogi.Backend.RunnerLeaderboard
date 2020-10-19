@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{566B15D5-1380-4BA3-BD87-5EB9F4064EC3}|Default">
+  <MonoDevelop.Ide.ItemProperties.Herogi.Leaderboard.Api PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Herogi.Leaderboard.Api/Controllers/RunnerLeaderboardController.cs">
+    <Files>
+      <File FileName="docker-compose.yml" Line="40" Column="49" />
+      <File FileName="Herogi.Leaderboard.Api/Controllers/RunnerLeaderboardController.cs" Line="44" Column="1" />
+      <File FileName="Herogi.Leaderboard.Service/IService.cs" Line="9" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Herogi.Leaderboard" expanded="True">
+            <Node name="docker-compose" expanded="True" />
+            <Node name="Herogi.Leaderboard.Api" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="RunnerLeaderboardController.cs" selected="True" />
+              </Node>
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="Herogi.Leaderboard.Service" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>docker-compose.dcproj</String>
+    <String>Herogi.Leaderboard.Web/Herogi.Leaderboard.Web.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="54" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="51" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="50" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="2" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="3" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="46" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="47" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="44" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="45" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="90" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="91" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="88" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="89" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="86" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="73" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Api/View/Index.html" relfile="Herogi.Leaderboard.Api/View/Index.html" line="74" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Web/Controllers/HomeController.cs" relfile="Herogi.Leaderboard.Web/Controllers/HomeController.cs" line="33" column="1" />
+      <Breakpoint file="/Users/wayni/Projects/Herogi.Leaderboard/Herogi.Leaderboard.Web/Controllers/HomeController.cs" relfile="Herogi.Leaderboard.Web/Controllers/HomeController.cs" line="35" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
